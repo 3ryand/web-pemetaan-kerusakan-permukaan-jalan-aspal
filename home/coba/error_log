@@ -1,0 +1,37 @@
+[23-Jun-2022 01:00:18 UTC] PHP Warning:  include(database.php): failed to open stream: No such file or directory in /home/automat1/public_html/home/coba/index.php on line 4
+[23-Jun-2022 01:00:18 UTC] PHP Warning:  include(database.php): failed to open stream: No such file or directory in /home/automat1/public_html/home/coba/index.php on line 4
+[23-Jun-2022 01:00:18 UTC] PHP Warning:  include(): Failed opening 'database.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/automat1/public_html/home/coba/index.php on line 4
+[23-Jun-2022 01:00:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/automat1/public_html/home/coba/index.php:4) in /home/automat1/public_html/home/coba/index.php on line 8
+[23-Jun-2022 01:00:18 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/automat1/public_html/home/coba/index.php on line 59
+[23-Jun-2022 01:00:18 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/automat1/public_html/home/coba/index.php on line 60
+[23-Jun-2022 01:00:18 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/automat1/public_html/home/coba/index.php on line 290
+[23-Jun-2022 01:00:18 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/automat1/public_html/home/coba/index.php on line 293
+[30-Jul-2022 02:45:19 UTC] PHP Warning:  include(database.php): failed to open stream: No such file or directory in /home/automat1/public_html/home/coba/cetaklaporan.php on line 4
+[30-Jul-2022 02:45:19 UTC] PHP Warning:  include(database.php): failed to open stream: No such file or directory in /home/automat1/public_html/home/coba/cetaklaporan.php on line 4
+[30-Jul-2022 02:45:19 UTC] PHP Warning:  include(): Failed opening 'database.php' for inclusion (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/automat1/public_html/home/coba/cetaklaporan.php on line 4
+[30-Jul-2022 02:45:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/automat1/public_html/home/coba/cetaklaporan.php:4) in /home/automat1/public_html/home/coba/cetaklaporan.php on line 8
+[30-Jul-2022 02:45:19 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/automat1/public_html/home/coba/cetaklaporan.php on line 145
+[30-Jul-2022 02:45:19 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/automat1/public_html/home/coba/cetaklaporan.php on line 146
+[30-Jul-2022 02:46:04 UTC] PHP Warning:  require(fpdf/fpdf.php): failed to open stream: No such file or directory in /home/automat1/public_html/home/coba/cetaklaporan.php on line 209
+[30-Jul-2022 02:46:04 UTC] PHP Warning:  require(fpdf/fpdf.php): failed to open stream: No such file or directory in /home/automat1/public_html/home/coba/cetaklaporan.php on line 209
+[30-Jul-2022 02:46:04 UTC] PHP Fatal error:  require(): Failed opening required 'fpdf/fpdf.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/automat1/public_html/home/coba/cetaklaporan.php on line 209
+[30-Jul-2022 02:46:30 UTC] PHP Warning:  fopen(logo_instansi/logopnm.png): failed to open stream: No such file or directory in /home/automat1/public_html/home/fpdf/fpdf.php on line 1257
+[30-Jul-2022 02:46:30 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Can't open image file: logo_instansi/logopnm.png in /home/automat1/public_html/home/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/automat1/public_html/home/fpdf/fpdf.php(1259): FPDF->Error('Can't open imag...')
+#1 /home/automat1/public_html/home/fpdf/fpdf.php(885): FPDF->_parsepng('logo_instansi/l...')
+#2 /home/automat1/public_html/home/coba/cetaklaporan.php(222): FPDF->Image('logo_instansi/l...', 30, 10, 25, 25)
+#3 /home/automat1/public_html/home/fpdf/fpdf.php(334): PDF->Header()
+#4 /home/automat1/public_html/home/coba/cetaklaporan.php(268): FPDF->AddPage()
+#5 /home/automat1/public_html/home/coba/cetaklaporan.php(32): cetakpdf('Politeknik Nege...', 'Jl. Serayu no. ...', '0351-452970', '0351-492960', 'www.pnm.ac.id', 'sekretariat@pnm...', 'logopnm.png', 'Eryandhi Putro ...')
+#6 {main}
+  thrown in /home/automat1/public_html/home/fpdf/fpdf.php on line 271
+[30-Jul-2022 02:47:02 UTC] PHP Warning:  getimagesize(hasil_deteksi/11_Lubang_-7.634243,111.529993.jpg): failed to open stream: No such file or directory in /home/automat1/public_html/home/fpdf/fpdf.php on line 1238
+[30-Jul-2022 02:47:02 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Missing or incorrect image file: hasil_deteksi/11_Lubang_-7.634243,111.529993.jpg in /home/automat1/public_html/home/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/automat1/public_html/home/fpdf/fpdf.php(1240): FPDF->Error('Missing or inco...')
+#1 /home/automat1/public_html/home/fpdf/fpdf.php(885): FPDF->_parsejpg('hasil_deteksi/1...')
+#2 /home/automat1/public_html/home/coba/cetaklaporan.php(286): FPDF->Image('hasil_deteksi/1...', 133.00125, 51.00125, 40)
+#3 /home/automat1/public_html/home/coba/cetaklaporan.php(32): cetakpdf('Politeknik Nege...', 'Jl. Serayu no. ...', '0351-452970', '0351-492960', 'www.pnm.ac.id', 'sekretariat@pnm...', 'logopnm.png', 'Eryandhi Putro ...')
+#4 {main}
+  thrown in /home/automat1/public_html/home/fpdf/fpdf.php on line 271
